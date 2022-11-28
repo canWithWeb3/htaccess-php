@@ -1,9 +1,14 @@
+
+
+Çalışması için .htaccess.txt lazımmış ***
+
 <IfModule mod_rewrite.c>
 
 #turn on url rewriting 
 RewriteEngine on
 
-
+// 404 sayfasına yönlendirme (kontrol etmedim fakat çalışıyordur.)
+ErrorDocument 404 / 404page.php
 
 #remove the need for .php extention 
 RewriteCond %{REQUEST_FILENAME} !-d 

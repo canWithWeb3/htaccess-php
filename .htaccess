@@ -29,6 +29,7 @@ php_flag display_errors on
 php_flag html_errors on
 php_flag log_errors on
 
+// server da hataları bulmak için
 # ini_set('display_errors', 1);
 # ini_set('display_startup_errors', 1);
 # error_reporting(E_ALL);

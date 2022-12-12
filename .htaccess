@@ -20,8 +20,8 @@ RewriteRule ^department-detail/([A-Za-z0-9_-]+)    ./department-detail.php?name=
 RewriteRule ^blog-detail/([A-Za-z0-9_-]+)    ./blog-detail.php?name=$1     [L,QSA]
 RewriteRule ^doctor-detail/([A-Za-z0-9_-]+)    ./doctor-detail.php?name=$1     [L,QSA]
 
-RewriteRule ^blog/([A-Za-z0-9_-]+)    ./blog.php?q=$1     [L,QSA]
-RewriteRule ^doctor/([A-Za-z0-9_-]+)    ./doctor.php?q=$1     [L,QSA]
+#RewriteRule ^blog/([A-Za-z0-9_-]+)    ./blog.php?q=$1     [L,QSA]
+#RewriteRule ^doctor/([A-Za-z0-9_-]+)    ./doctor.php?q=$1     [L,QSA]
 
 
 php_flag display_startup_errors on
